@@ -84,7 +84,7 @@ public class UserResource {
 
     }
 
-
+//ath
     @GetMapping("/find")
     public User getById(@RequestParam(name = "id") String id,@RequestHeader(name="idToken") String idToken) throws RestrictedInfoException,IOException, FirebaseAuthException,InvalidIdToken {
 
