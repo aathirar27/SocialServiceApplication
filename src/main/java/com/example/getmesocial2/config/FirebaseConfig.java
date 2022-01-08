@@ -18,7 +18,7 @@ public class FirebaseConfig {
     public FirebaseApp initializeFirebase() throws IOException {
 
         PathMatchingResourcePatternResolver resolver = new PathMatchingResourcePatternResolver();
-        Resource resource =  resolver.getResource("classpath:photoapplication-a946f-firebase-adminsdk-d96ae-f46253f18d.json");
+        Resource resource =  resolver.getResource("classpath:photoapplication-spring2-44173-firebase-adminsdk-m6fhf-246ca1afe6.json");
 
         FileInputStream serviceAccount =
                 new FileInputStream(resource.getFile());
